@@ -8,6 +8,9 @@ use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\ContactController;
 use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Frontend\CustomerController;
+use App\Http\Controllers\Backend\BusinessSettingsController;
+use App\Http\Controllers\Backend\SliderSettingController;
+
 
 Route::controller(PageController::class)->group(function () {
     Route::get('/', 'home')->name('home');
@@ -40,5 +43,15 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth']], function () {
     Route::middleware([isAdmin::class])->group(function () {
         Route::get('/', [DashboardController::class, 'dashboard'])->name('admin.dashboard');
     });
+
+Route::get('/business-settings', [BusinessSettingsController::class, 'index'])->name('business-settings.index');
+Route::get('/business-settings/{id}/edit', [BusinessSettingsController::class, 'edit'])->name('business-settings.edit');
+Route::put('/business-settings/{id}', [BusinessSettingsController::class, 'update'])->name('business-settings.update');
+
+
+Route::get('/slider-settings', [SliderSettingController::class, 'index'])->name('slider-settings.index');
+Route::get('/slider-settings/{id}/edit', [SliderSettingController::class, 'edit'])->name('slider-settings.edit');
+Route::put('/slider-settings/{id}', [SliderSettingController::class, 'update'])->name('slider-settings.update');
+
 });
 

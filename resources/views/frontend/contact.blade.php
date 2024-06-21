@@ -91,7 +91,7 @@
                             @enderror
                         </div>
                         <div class="form_group">
-                            <button type="submit" class="btn btn-primary">Submitgfgfgfgfgfgf</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
                         </div>
                     </form>
 

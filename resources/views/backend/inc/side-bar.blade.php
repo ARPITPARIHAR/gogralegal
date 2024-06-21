@@ -2,9 +2,15 @@
     <div class="pcoded-inner-navbar main-menu">
         <ul class="pcoded-item pcoded-left-item">
             <li class="">
-                <a href="#">
+                <a href="{{ route('business-settings.index') }}">
                     <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
                     <span class="pcoded-mtext">Business Settings</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="{{ route('slider-settings.index') }}">
+                    <span class="pcoded-micon"><i class="feather icon-menu"></i></span>
+                    <span class="pcoded-mtext">Slider Settings</span>
                 </a>
             </li>
             <li class="">
