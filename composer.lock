@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "fee622d6facdbd2a713897ff918210ed",
+=======
+    "content-hash": "ca3bd3a5099212e1108b90df76a4be89",
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
     "packages": [
         {
             "name": "brick/math",
@@ -5866,6 +5870,7 @@
         },
         {
             "name": "laravel/pint",
+<<<<<<< HEAD
             "version": "v1.16.1",
             "source": {
                 "type": "git",
@@ -5876,6 +5881,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/9266a47f1b9231b83e0cfd849009547329d871b1",
                 "reference": "9266a47f1b9231b83e0cfd849009547329d871b1",
+=======
+            "version": "v1.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "1b3a3dc5bc6a81ff52828ba7277621f1d49d6d98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/1b3a3dc5bc6a81ff52828ba7277621f1d49d6d98",
+                "reference": "1b3a3dc5bc6a81ff52828ba7277621f1d49d6d98",
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
                 "shasum": ""
             },
             "require": {
@@ -5886,6 +5903,7 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.59.3",
                 "illuminate/view": "^10.48.12",
                 "larastan/larastan": "^2.9.7",
@@ -5893,6 +5911,15 @@
                 "mockery/mockery": "^1.6.12",
                 "nunomaduro/termwind": "^1.15.1",
                 "pestphp/pest": "^2.34.8"
+=======
+                "friendsofphp/php-cs-fixer": "^3.57.1",
+                "illuminate/view": "^10.48.10",
+                "larastan/larastan": "^2.9.6",
+                "laravel-zero/framework": "^10.4.0",
+                "mockery/mockery": "^1.6.12",
+                "nunomaduro/termwind": "^1.15.1",
+                "pestphp/pest": "^2.34.7"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
             },
             "bin": [
                 "builds/pint"
@@ -5928,7 +5955,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2024-06-18T16:50:05+00:00"
+=======
+            "time": "2024-05-21T18:08:25+00:00"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
         },
         {
             "name": "laravel/sail",
@@ -7212,6 +7243,7 @@
         },
         {
             "name": "sebastian/exporter",
+<<<<<<< HEAD
             "version": "6.0.1",
             "source": {
                 "type": "git",
@@ -7222,6 +7254,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/f291e5a317c321c0381fa9ecc796fa2d21b186da",
                 "reference": "f291e5a317c321c0381fa9ecc796fa2d21b186da",
+=======
+            "version": "6.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/exporter.git",
+                "reference": "1d978d75456094ec0c67692bca1d4662d5ce9c9f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/exporter/zipball/1d978d75456094ec0c67692bca1d4662d5ce9c9f",
+                "reference": "1d978d75456094ec0c67692bca1d4662d5ce9c9f",
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
                 "shasum": ""
             },
             "require": {
@@ -7230,12 +7274,20 @@
                 "sebastian/recursion-context": "^6.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "phpunit/phpunit": "^11.0"
+=======
+                "phpunit/phpunit": "^11.2"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-main": "6.0-dev"
+=======
+                    "dev-main": "6.1-dev"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
                 }
             },
             "autoload": {
@@ -7278,7 +7330,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/exporter/issues",
                 "security": "https://github.com/sebastianbergmann/exporter/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/exporter/tree/6.0.1"
+=======
+                "source": "https://github.com/sebastianbergmann/exporter/tree/6.0.3"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
             },
             "funding": [
                 {
@@ -7286,7 +7342,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-03-02T07:28:20+00:00"
+=======
+            "time": "2024-06-17T07:48:18+00:00"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
         },
         {
             "name": "sebastian/global-state",
@@ -7524,6 +7584,7 @@
         },
         {
             "name": "sebastian/recursion-context",
+<<<<<<< HEAD
             "version": "6.0.0",
             "source": {
                 "type": "git",
@@ -7534,6 +7595,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/b75224967b5a466925c6d54e68edd0edf8dd4ed4",
                 "reference": "b75224967b5a466925c6d54e68edd0edf8dd4ed4",
+=======
+            "version": "6.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/recursion-context.git",
+                "reference": "2f15508e17af4ea35129bbc32ce28a814d9c7426"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/recursion-context/zipball/2f15508e17af4ea35129bbc32ce28a814d9c7426",
+                "reference": "2f15508e17af4ea35129bbc32ce28a814d9c7426",
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
                 "shasum": ""
             },
             "require": {
@@ -7576,7 +7649,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/recursion-context/issues",
                 "security": "https://github.com/sebastianbergmann/recursion-context/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.0"
+=======
+                "source": "https://github.com/sebastianbergmann/recursion-context/tree/6.0.1"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
             },
             "funding": [
                 {
@@ -7584,7 +7661,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-02-02T06:08:48+00:00"
+=======
+            "time": "2024-06-17T05:22:57+00:00"
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
         },
         {
             "name": "sebastian/type",
@@ -7828,5 +7909,11 @@
         "php": "^8.2"
     },
     "platform-dev": [],
+<<<<<<< HEAD
+=======
+    "platform-overrides": {
+        "php": "8.2"
+    },
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
     "plugin-api-version": "2.6.0"
 }

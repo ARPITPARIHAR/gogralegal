@@ -13,7 +13,11 @@ return new class extends Migration
     {
         Schema::create('practice_areas', function (Blueprint $table) {
             $table->id();
+<<<<<<< HEAD
             $table->string('title',250);
+=======
+            $table->string('name',250);
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
             $table->string('icon',250);
             $table->string('header_img',250)->nullable();
             $table->longText('breif_description')->nullable();

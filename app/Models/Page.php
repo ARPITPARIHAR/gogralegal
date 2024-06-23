@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+<<<<<<< HEAD
 use Str;
 class Page extends Model
 {
@@ -23,4 +24,10 @@ class Page extends Model
     }
 
 
+=======
+
+class Page extends Model
+{
+    use HasFactory;
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 }

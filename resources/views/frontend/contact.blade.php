@@ -54,6 +54,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6">
+<<<<<<< HEAD
 				<div class="cntct_frm">
 					<form action="#">
 						<div class="form_group">
@@ -79,6 +80,52 @@
 						</div>
 
 					</form>
+=======
+                <div class="cntct_frm">
+
+                    @if(session()->has('success'))
+                    <div class="flash-message alert alert-success">
+                      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                      {{ session()->get('success') }}
+                    </div>
+                  @endif
+                    <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <div class="form_group">
+                            <input class="form-control" type="text" name="name" value="{{ old('name') }}" placeholder="First Name">
+                            @error('name')
+                                <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form_group">
+                            <input class="form-control" type="number" name="phone" value="{{ old('phone') }}" placeholder="Phone Number">
+                            @error('phone')
+                                <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form_group">
+                            <input class="form-control" type="email" name="mail" value="{{ old('mail') }}" placeholder="Email">
+                            @error('mail')
+                                <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form_group">
+                            <textarea class="form-control" name="message" placeholder="Message">{{ old('message') }}</textarea>
+                            @error('message')
+                                <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                        <div class="form_group">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 				</div>
 			</div>
 			<div class="col-lg-12">
@@ -91,6 +138,48 @@
 	</div>
 </section>
 
+<<<<<<< HEAD
+=======
+<style>
+    .flash-message {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f0f9fa;
+  background-image: linear-gradient(to bottom, #f0f9fa 0%, #e0ecf0 100%);
+  z-index: 9999;
+}
+
+.flash-message.below-form {
+  top: auto;
+  bottom: 20px;
+}
+
+
+.form-container {
+  position: relative;
+}
+</style>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+@endsection
+
+@section('scripts')
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 @endsection
 @section('modal')
 

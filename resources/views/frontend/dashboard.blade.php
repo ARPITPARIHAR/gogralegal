@@ -42,15 +42,20 @@
 					<div class="tab-content" id="v-pills-tabContent">
 						<div class="tab-pane fade show active" id="v-pills-first" role="tabpanel" aria-labelledby="v-pills-first-tab">
 							<div class="dshbrd_dtls">
+<<<<<<< HEAD
 								@session('success')
                                     <h2 class="text-success">{{ __('Profile updated successfully') }}</h2>
                                 @else
                                     <h2>Dashbaord</h2>
                                 @endsession
+=======
+								<h2>Welcome to Dashboard</h2>
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 							</div>
 						</div>
 						<div class="tab-pane fade" id="v-pills-second" role="tabpanel" aria-labelledby="v-pills-second-tab">
 							<div class="dshbrd_dtls">
+<<<<<<< HEAD
 								<div class="card">
                                     <div class="card-header">
                                         @session('success_profile')
@@ -129,10 +134,14 @@
                                         </div>
                                     </form>
                                 </div>
+=======
+								<h2>Profile</h2>
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 							</div>
 						</div>
 						<div class="tab-pane fade" id="v-pills-third" role="tabpanel" aria-labelledby="v-pills-third-tab">
 							<div class="dshbrd_dtls">
+<<<<<<< HEAD
 								<div class="card">
                                     <div class="card-header">
                                         <h2>Case Status</h2>
@@ -160,10 +169,14 @@
                                         </table>
                                     </div>
                                 </div>
+=======
+								<h2>Case Status </h2>
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 							</div>
 						</div>
 						<div class="tab-pane fade" id="v-pills-fourth" role="tabpanel" aria-labelledby="v-pills-fourth-tab">
 							<div class="dshbrd_dtls">
+<<<<<<< HEAD
 								<div class="card">
                                     <div class="card-header">
                                         <h2>Billings</h2>
@@ -193,6 +206,9 @@
                                         </table>
                                     </div>
                                 </div>
+=======
+								<h2>Billing</h2>
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 							</div>
 						</div>
 						<div class="tab-pane fade" id="v-pills-five" role="tabpanel" aria-labelledby="v-pills-five-tab"> </div>

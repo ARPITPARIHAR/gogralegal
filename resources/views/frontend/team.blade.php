@@ -23,6 +23,7 @@
 					<h2>Our Team</h2>
 				</div>
 			</div>
+<<<<<<< HEAD
             @foreach (App\Models\Team::get() as $member)
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="team-box">
@@ -37,6 +38,154 @@
                     </div>
                 </div>
             @endforeach
+=======
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt001.png')}}" alt="team"></div>
+					<h4>Nishant Parikh</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt002.png')}}" alt="team"></div>
+					<h4>Sridhar Gorthi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt003.png')}}" alt="team"></div>
+					<h4>Nisha Kaur Uberoi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt001.png')}}" alt="team"></div>
+					<h4>Nishant Parikh</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt002.png')}}" alt="team"></div>
+					<h4>Sridhar Gorthi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt003.png')}}" alt="team"></div>
+					<h4>Nisha Kaur Uberoi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt001.png')}}" alt="team"></div>
+					<h4>Nishant Parikh</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt002.png')}}" alt="team"></div>
+					<h4>Sridhar Gorthi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt003.png')}}" alt="team"></div>
+					<h4>Nisha Kaur Uberoi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt001.png')}}" alt="team"></div>
+					<h4>Nishant Parikh</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt002.png')}}" alt="team"></div>
+					<h4>Sridhar Gorthi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-6">
+				<div class="team-box">
+					<div class="team-imag"><img src="{{asset('frontend/images/mngmnt003.png')}}" alt="team"></div>
+					<h4>Nisha Kaur Uberoi</h4>
+					<span>Partner - Corporate</span>
+					<p>M&A | Joint Ventures | PE-VC Investments | General Corporate </p>
+					<ul>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl001.png')}}"></a></li>
+						<li><a href="#"><img src="{{asset('frontend/images/hdr_scl002.png')}}"></a></li>
+					</ul>
+				</div>
+			</div>
+
+
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 		</div>
 	</div>
 </section>

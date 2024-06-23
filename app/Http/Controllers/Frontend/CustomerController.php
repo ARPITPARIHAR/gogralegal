@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Hash;
 use App\Models\User;
 
@@ -36,3 +37,12 @@ class CustomerController extends Controller
         return back()->with('success', 'Profile updated Successfully.');
     }
 }
+=======
+
+class CustomerController extends Controller
+{
+    public function dashboard(){
+        return view('frontend.dashboard');
+    }
+}
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c

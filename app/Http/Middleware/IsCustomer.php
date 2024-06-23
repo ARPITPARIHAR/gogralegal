@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
 namespace App\Http\Middleware;
 
 use Closure;

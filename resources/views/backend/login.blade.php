@@ -58,7 +58,11 @@
                     <form class="md-float-material form-material" action="{{ route('login') }}" method="POST">
                         @csrf
                         <div class="text-center">
+<<<<<<< HEAD
                             <img src="{{businessSetting(1)->admin_logo}}" alt="logo.png">
+=======
+                            <img src="{{ asset('backend/assets/images/logo.png') }}" alt="logo.png">
+>>>>>>> 81dc19414bb2edd5ac0d37e9e58fbf5e72167c9c
                         </div>
                         <div class="auth-box card">
                             <div class="card-block">
