@@ -14,7 +14,7 @@
 					<h4>Links</h4>
 					<ul>
 						<li><a href="{{route('home')}}">Home</a></li>
-						<li><a href="{{ route('practice-areas.index') }}">Practice Areas</a></li>
+						<li><a href="{{ route('practice-areas.index') }}">Practices Areas</a></li>
 						<li><a href="{{ route('lawyers') }}">Lawyers</a></li>
 						<li><a href="{{ route('publications') }}">Publications</a></li>
 						<li><a href="{{ route('careers') }}">Careers</a></li>
